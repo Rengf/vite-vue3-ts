@@ -50,7 +50,7 @@ const count = ref(0)
   </p>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 a {
   color: #42b983;
 }
@@ -58,10 +58,6 @@ a {
 label {
   margin: 0 0.5em;
   font-weight: bold;
-  color:$color
-}
-p{
-   color:$color
 }
 
 code {

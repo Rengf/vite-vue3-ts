@@ -16,5 +16,11 @@ module.exports = {
         indent: [2, 4],
         'padded-blocks': 0,
         'eol-last': 0
-    }
+    },
+    overrides: [{
+        files: ['src/views/**/*.vue'],
+        rules: {
+            'vue/multi-word-component-names': 0
+        }
+    }]
 }
